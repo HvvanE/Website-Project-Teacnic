@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>모바일 웹사이트 리뉴얼</title>
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- UIkit CSS & JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/js/uikit.min.js"></script>
+  <!-- Custom CSS & JS -->
+  <link rel="icon" href="images/menuicon-01.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="js/custom.js"></script>
+</head>
+<body>
+  
+  <div class="container">
+    <!-- Trigger -->
+    <div class="trigger-close"></div>
+    <div class="trigger">
+      <div>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="trigger-menu">
+      <div class="trigger-inner">
+        <div class="trigger-logo">
+          <a href="#none" onclick="location.href='index.html'">
+            <img src="images/logo-black.png" alt="#none">
+          </a>
+        </div>
+        <div class="trigger-login">
+          <a href="#none" onclick="location.href='login.html'">로그인</a>
+          <a href="#" onclick="location.href='signup.html'">회원가입</a>
+        </div>
+        <div class="trigger-line">
+          <div></div>
+        </div>
+        <div class="accordion">
+          <div class="trigger-title">My</div>
+          <div class="trigger-content">
+            <a href="#none" onclick="location.href='mypage.html'">마이페이지</a>
+            <a href="#none" onclick="location.href='login.html'">주문하기</a>
+            <a href="#none" onclick="location.href='login.html'">주문내역</a>
+            <a href="#none" onclick="location.href='login.html'">즐겨찾는매장</a>
+          </div>
+          <div class="trigger-title">Menu</div>
+          <div class="trigger-content">
+            <a href="#none" onclick="location.href='subpage-01.html'">커피</a>
+            <a href="#none" onclick="location.href='subpage-02.html'">티</a>
+            <a href="#none" onclick="location.href='subpage-03.html'">음료</a>
+            <a href="#none" onclick="location.href='subpage-04.html'">디저트</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header Include -->
+    <div class="header-include"></div>
+    <!-- Header Include -->
+    <!-- Section : Main Slide -->
+    <section class="main-slide">
+      <div class="inner">
+        <div class="main-text uk-animation-slide-top-medium">
+          <img src="images/slide-text.png" alt="#none">
+        </div>
+        <div uk-slideshow="animation: push">
+          <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+            <ul class="uk-slideshow-items">
+              <li>
+                <a href="#none"><img src="images/slide-01.png" alt="#none"></a>
+                <p>
+                  오늘의<br>과채루틴!
+                </p>
+              </li>
+              <li>
+                <a href="#none"><img src="images/slide-02.png" alt="#none"></a>
+                <p>
+                  헤이즐넛과<br> 다크로스트원두의<br> 달콤한 만남
+                </p>
+              </li>
+              <li>
+                <a href="#none"><img src="images/slide-03.png" alt="#none"></a>
+                <p>
+                  Oh, JEJU<br>달콤한<br> 제주 한모금
+                </p>
+              </li>
+              <li>
+                <a href="#none"><img src="images/slide-04.png" alt="#none"></a>
+                <p>
+                  시그니처<br> 텀블러 출시<br> 건강한 지구를 위한<br> 텀블러 습관
+                </p>
+              </li>
+            </ul>
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+              uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+              uk-slideshow-item="next"></a>
+          </div>
+
+          <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+        </div>
+      </div>
+    </section>
+    <!-- Section : Categry -->
+    <section class="categry">
+      <div class="inner">
+        <div class="categry-items">
+          <div class="categry-item">
+            <a href="#none" onclick="location.href='login.html'">
+              <div class="categry-image">
+                <img src="images/category-01.png" alt="#none">
+              </div>
+              <div class="categry-text">
+                <p>주문하기</p>
+              </div>
+            </a>
+          </div>
+          <div class="categry-item">
+            <a href="#none" onclick="location.href='subpage-01.html'">
+              <div class="categry-image">
+                <img src="images/category-02.png" alt="#none">
+              </div>
+              <div class="categry-text">
+                <p>메뉴</p>
+              </div>
+            </a>
+          </div>
+          <div class="categry-item">
+            <a href="#none" onclick="location.href='membership.html'">
+              <div class="categry-image">
+                <img src="images/category-03.png" alt="#none">
+              </div>
+              <div class="categry-text">
+                <p>멤버쉽</p>
+              </div>
+            </a>
+          </div>
+          <div class="categry-item">
+            <a href="#none">
+              <div class="categry-image">
+                <img src="images/category-04.png" alt="#none">
+              </div>
+              <div class="categry-text">
+                <p>매장찾기</p>
+              </div>
+            </a>
+          </div>
+          <div class="categry-item">
+            <a href="#none">
+              <div class="categry-image">
+                <img src="images/category-05.png" alt="#none">
+              </div>
+              <div class="categry-text">
+                <p>고객센터</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section : Sub Slide -->
+    <section class="sub-slide">
+      <div class="inner">
+        <div class="sub-slide-items">
+          <div uk-slider="autoplay: true; autoplay-interval: 3000">
+            <ul class="uk-slider-items uk-child-width-1-1@s uk-child-width-1-1@">
+                <li>
+                    <div><img src="images/sub-slide-01.png"></div>
+                </li>
+                <li>
+                    <div><img src="images/sub-slide-02.png"></div>
+                </li>
+                <li>
+                    <div><img src="images/sub-slide-03.png"></div>
+                </li>
+            </ul>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section : Menu -->
+    <section class="menu">
+      <div class="inner">
+        <div class="uk-child-width-1-1@m" uk-grid
+          uk-scrollspy="cls: uk-animation-slide-left; target: .uk-card; delay: 300">
+          <div>
+            <div class="uk-card uk-card-default uk-card-body">
+              <div class="menu-item">
+                <a href="#none" onclick="location.href='subpage-01.html'">
+                  <div class="menu-image"><img src="images/menu-01.png" alt="#none"></div>
+                  <div class="menu-text">
+                    <h2>
+                      FRESH<br>COFFEE
+                    </h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="uk-card uk-card-default uk-card-body" uk-scrollspy-class="uk-animation-slide-right">
+              <div class="menu-item">
+                <a href="#none" onclick="location.href='subpage-02.html'">
+                  <div class="menu-image"><img src="images/menu-02.png" alt="#none"></div>
+                  <div class="menu-text">
+                    <h2>
+                      FRAGRANT<br>TEA
+                    </h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="uk-card uk-card-default uk-card-body">
+              <div class="menu-item">
+                <a href="#none" onclick="location.href='subpage-03.html'">
+                  <div class="menu-image"><img src="images/menu-03.png" alt="#none"></div>
+                  <div class="menu-text">
+                    <h2>
+                      VARIOUS<br>BEVERAGE
+                    </h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="uk-card uk-card-default uk-card-body" uk-scrollspy-class="uk-animation-slide-right">
+              <div class="menu-item">
+                <a href="#none" onclick="location.href='subpage-04.html'">
+                  <div class="menu-image"><img src="images/menu-04.png" alt="#none"></div>
+                  <div class="menu-text">
+                    <h2>
+                      TASTY<br>DESSERT
+                    </h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Include -->
+    <div class="footer-include"></div>
+    <!-- Footer Include -->
+  </div>
+
+</body>
+</html>

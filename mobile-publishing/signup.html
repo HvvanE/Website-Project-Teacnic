@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up</title>
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- UIkit CSS & JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/js/uikit.min.js"></script>
+  <!-- Custom CSS & JS -->
+  <link rel="icon" href="images/menuicon-01.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="js/custom.js"></script>
+</head>
+<body>
+  
+  <div class="container signup">
+    <!-- Trigger -->
+    <div class="trigger-close"></div>
+    <div class="trigger">
+      <div>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="trigger-menu">
+      <div class="trigger-inner">
+        <div class="trigger-logo">
+          <a href="#none" onclick="location.href='index.html'">
+            <img src="images/logo-black.png" alt="#none">
+          </a>
+        </div>
+        <div class="trigger-login">
+          <a href="#none" onclick="location.href='login.html'">로그인</a>
+          <a href="#" onclick="location.href='signup.html'">회원가입</a>
+        </div>
+        <div class="trigger-line">
+          <div></div>
+        </div>
+        <div class="accordion">
+          <div class="trigger-title">My</div>
+          <div class="trigger-content">
+            <a href="#none" onclick="location.href='mypage.html'">마이페이지</a>
+            <a href="#none" onclick="location.href='login.html'">주문하기</a>
+            <a href="#none" onclick="location.href='login.html'">주문내역</a>
+            <a href="#none" onclick="location.href='login.html'">즐겨찾는매장</a>
+          </div>
+          <div class="trigger-title">Menu</div>
+          <div class="trigger-content">
+            <a href="#none" onclick="location.href='subpage-01.html'">커피</a>
+            <a href="#none" onclick="location.href='subpage-02.html'">티</a>
+            <a href="#none" onclick="location.href='subpage-03.html'">음료</a>
+            <a href="#none" onclick="location.href='subpage-04.html'">디저트</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header Include -->
+    <div class="header-include"></div>
+    <!-- Header Include -->
+    <!-- Signup -->
+    <section class="signup-content">
+      <div class="inner">
+        <div class="signup-heading-text">
+          <h2>Sign up</h2>
+        </div>
+        <div class="field">
+          <b>아이디</b>
+          <div class="id-inner">
+            <input type="text">
+            <a href="#none">중복확인</a>
+          </div>
+        </div>
+        <div class="field">
+          <b>비밀번호</b>
+          <div class="pw-inner">
+            <input type="password">
+            <input type="password">
+          </div>
+          <div class="field">
+            <b>이메일</b>
+            <div class="email-inner">
+              <input type="email">
+              <select>
+                <option>@naver.com</option>
+                <option>@ngmail.com</option>
+                <option>@daum.net</option>
+                <option>직접입력</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <b>이름</b>
+            <div class="name-inner">
+              <input type="text">
+            </div>
+          </div>
+          <div class="field">
+            <b>휴대폰 번호</b>
+            <div class="phone-inner">
+              <input type="number">
+              <input type="number">
+              <input type="number">
+            </div>
+          </div>
+          <div class="field">
+            <b>생년 월일</b>
+            <div class="bir-inner">
+              <select>
+                <option>2022년</option>
+                <option>2021년</option>
+                <option>2020년</option>
+                <option>2019년</option>
+                <option>2018년</option>
+                <option>2017년</option>
+                <option>2016년</option>
+                <option>2015년</option>
+                <option>2014년</option>
+                <option>2013년</option>
+                <option>2012년</option>
+                <option>2011년</option>
+                <option>2010년</option>
+                <option>2009년</option>
+                <option>2008년</option>
+                <option>2007년</option>
+                <option>2006년</option>
+                <option>2005년</option>
+                <option>2004년</option>
+                <option>2003년</option>
+                <option>2002년</option>
+                <option>2001년</option>
+                <option>2000년</option>
+                <option>1999년</option>
+                <option>1998년</option>
+              </select>
+              <select>
+                <option>1월</option>
+                <option>2월</option>
+                <option>3월</option>
+                <option>4월</option>
+                <option>5월</option>
+                <option>6월</option>
+                <option>7월</option>
+                <option>8월</option>
+                <option>9월</option>
+                <option>10월</option>
+                <option>11월</option>
+                <option>12월</option>
+              </select>
+              <select>
+                <option>1일</option>
+                <option>2일</option>
+                <option>3일</option>
+                <option>4일</option>
+                <option>5일</option>
+                <option>6일</option>
+                <option>7일</option>
+                <option>8일</option>
+                <option>9일</option>
+                <option>10일</option>
+                <option>11일</option>
+                <option>12일</option>
+                <option>13일</option>
+                <option>14일</option>
+                <option>15일</option>
+                <option>16일</option>
+                <option>17일</option>
+                <option>18일</option>
+                <option>19일</option>
+                <option>20일</option>
+                <option>21일</option>
+                <option>22일</option>
+                <option>23일</option>
+                <option>24일</option>
+                <option>25일</option>
+                <option>26일</option>
+                <option>27일</option>
+                <option>28일</option>
+                <option>29일</option>
+                <option>30일</option>
+                <option>31일</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <div class="desc-inner">
+              <label><input type="checkbox">회원가입 및 이용약관에 모두 동의합니다.</label>
+              <label><input type="checkbox">(필수) 이용약관과 개인정보 수집 및 이용에 동의합니다.</label>
+              <label><input type="checkbox">(필수) 만 14세 이상입니다.<br> <span>만 19세 미만의 미성년자가 결제 시 법정대리인이 거래를 취소 할  수있습니다.</span></label>
+              <label><input type="checkbox">(선택) 이메일 및 sms 마케팅 정보 수신에 동의합니다.<br> <span>회원은 언제든지 회원 정보에서 수신 거부로 변경할 수 있습니다.</span></label>
+            </div>
+          </div>
+          <div class="field">
+            <div></div>
+          </div>
+          <div class="field">
+            <a class="go-btn" href="#none" onclick="location.href='index.html'">가입하기</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </div>
+
+</body>
+</html>
